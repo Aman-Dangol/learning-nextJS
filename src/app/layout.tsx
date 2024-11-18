@@ -8,7 +8,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        this is home page
         {children} {/* this renders page.tsx */}
       </body>
     </html>

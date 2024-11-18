@@ -1,5 +1,4 @@
-import React from "react";
-
+// app/dashboard/layout.tsx
 export default function DashboardLayout({
   children,
 }: {
@@ -7,7 +6,7 @@ export default function DashboardLayout({
 }) {
   return (
     <div>
-      hello
+      <h1>Dashboard Layout</h1>
       {children}
     </div>
   );

@@ -1,3 +1,3 @@
 export default function Error() {
-  return <div>this is a erro</div>;
+  return <div>this is global error</div>;
 }
