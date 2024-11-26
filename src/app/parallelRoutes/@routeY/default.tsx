@@ -1,9 +1,3 @@
-import Link from "next/link";
-
 export default function Default() {
-  return (
-    <h1 className="text-white">
-      this is default page
-    </h1>
-  );
-}
+  return <h1 className="text-white">this is default page for routeY</h1>
+};

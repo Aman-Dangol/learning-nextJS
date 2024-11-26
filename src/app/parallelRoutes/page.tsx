@@ -1,5 +1,3 @@
 export default function page() {
-  return (
-    <div>this is paralell routes child page (/paralellRoutes/page.tsx)</div>
-  );
+  return <div>this is /paralellRoutes/page.tsx</div>;
 }

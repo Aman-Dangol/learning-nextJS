@@ -26,6 +26,14 @@ export default function Navbar() {
           homepage
         </Link>
       </li>
+      <li>
+        <Link
+          href={"/parallelRoutes"}
+          className={` ${pathname == "/homepage" ? "bg-green-400" : ""}`}
+        >
+          parallelRoutes
+        </Link>
+      </li>
     </ul>
   );
 }
