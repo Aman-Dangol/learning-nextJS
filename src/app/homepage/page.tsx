@@ -1,15 +1,10 @@
-import { Redirect } from "next";
-
-import { permanentRedirect } from "next/navigation";
+import Link from "next/link";
 
 export default function page() {
   return (
     <div>
       <a href="/homepage/temporary/">temporary redirect</a> <br />
-      <form action={"/homepage/temporary"} method="GET">
-        <label htmlFor="">name</label>
-        <input type="text" name="" id="" className="border-red-400" />
-      </form>
+      <Link href={"/dashboard"}>dashboard go to</Link>
     </div>
   );
 }

@@ -4,10 +4,5 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <div className="bg-blue-500">
-      <h1>Dashboard Layout</h1>
-      {children}
-    </div>  
-  );
+  return <div className="bg-blue-500">{children}</div>;
 }
